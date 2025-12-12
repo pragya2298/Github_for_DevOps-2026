@@ -1,0 +1,4 @@
+#environment variable creation
+
+python -m venv myenv
+
