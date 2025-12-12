@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 git init
 git status
 git add filename
@@ -5,3 +6,5 @@ git commit -m "added new commit"
 git rm --cached filename -- from staging to untracked
 git rm filename -- to delete the tracked file
 git restore filename -- to restore the track file
+=======
+>>>>>>> f958a5f (added)
