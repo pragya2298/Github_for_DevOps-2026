@@ -1,0 +1,30 @@
+ 17 git add .
+  18 git commit -m "added"
+  19 git pull origin master --rebase
+  20 git push origin master
+  21 git reset --soft HEAD~1
+  22 git add .
+  23 git commit -m "added"
+  24 git push origin master --force
+  25 git log --oneline -5
+  26 git log --oneline -10
+  27 git log --oneline -20
+  28 git rebase -i HEAD~2
+  29 git rebase -i HEAD~2
+  30 git rebase -i HEAD~2
+  31 git add .
+  32 git status
+  33 git commit -m "added"
+  34 git commit -m "Remove PAT and clean commit history"
+  35 git rebase --continue
+  36 git rebase --abort
+  37 git push origin master --force
+  38 git branch
+  39 git branch dev
+  40 git branch
+  41 git switch dev
+  42 git branch
+  43 git log
+  44 git push origin dev
+  45 git branch
+  46 touch branchingfile.py
